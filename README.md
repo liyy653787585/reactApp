@@ -12,8 +12,9 @@
 [![issues](https://badgen.net/github/open-issues/wulimax/reactApp)]
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 
-
 多年BAT一线大厂架构经验倾囊相授
+
+![我的公众](https://github.com/wulimax/reactApp/tree/master/docs/PublicImage/shishan100.jpg)
 
 ## 编写目的
 
