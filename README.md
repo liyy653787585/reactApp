@@ -14,7 +14,7 @@
 
 多年BAT一线大厂架构经验倾囊相授
 
-![我的公众](https://github.com/wulimax/reactApp/tree/master/docs/PublicImage/shishan100.jpg)
+![我的公众号](https://github.com/wulimax/reactApp/blob/master/docs/PublicImage/shishan100.jpg)
 
 ## 编写目的
 
