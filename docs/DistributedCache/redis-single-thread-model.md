@@ -11,7 +11,7 @@ redis 和 memcached 有什么区别？redis 的线程模型是什么？为什么
 ### redis 和 memcached 有啥区别？
 
 #### redis 支持复杂的数据结构
-redis 相比 memcached 来说，拥有[更多的数据结构](/docs/high-concurrency/redis-data-types.md)，能支持更丰富的数据操作。如果需要缓存能够支持更复杂的结构和操作， redis 会是不错的选择。
+redis 相比 memcached 来说，拥有[更多的数据结构](https://github.com/wulimax/reactApp/blob/master/docs/high-concurrency/redis-data-types.md)，能支持更丰富的数据操作。如果需要缓存能够支持更复杂的结构和操作， redis 会是不错的选择。
 
 #### redis 原生支持集群模式
 在 redis3.x 版本中，便能支持 cluster 模式，而 memcached 没有原生的集群模式，需要依靠客户端来实现往集群中分片写入数据。

@@ -9,7 +9,7 @@ redis 的并发竞争问题是什么？如何解决这个问题？了解 redis �
 ## 面试题剖析
 某个时刻，多个系统实例都去更新某个 key。可以基于 zookeeper 实现分布式锁。每个系统通过 zookeeper 获取分布式锁，确保同一时间，只能有一个系统实例在操作某个 key，别人都不允许读和写。
 
-![zookeeper-distributed-lock](/images/zookeeper-distributed-lock.png)
+![zookeeper-distributed-lock](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/images/zookeeper-distributed-lock.png)
 
 你要写入缓存的数据，都是从 mysql 里查出来的，都得写入 mysql 中，写入 mysql 中的时候必须保存一个时间戳，从 mysql 查出来的时候，时间戳也查出来。
 

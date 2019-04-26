@@ -1,44 +1,24 @@
-# 石杉的架构笔记 --互联网Java工程师进阶知识完全扫盲
+# 分布式缓存
 
-[![original](https://badgen.net/badge/original/%E4%B8%AD%E5%8D%8E%E7%9F%B3%E6%9D%89/orange)]
-[![open-source-organization](https://badgen.net/badge/organization/join%20us/138c7b)]
-[![reading](https://badgen.net/badge/books/read%20together/cyan)]
-[![coding](https://badgen.net/badge/leetcode/coding%20together/cyan)]
-[![sharing](https://badgen.net/badge/readers/share%20together/cyan)]
-[![stars](https://badgen.net/github/stars/doocs/wulimax/reactApp)]
-[![forks](https://badgen.net/github/forks/wulimax/reactApp)]
-[![contributors](https://badgen.net/github/contributors/wulimax/reactApp)]
-[![help-wanted](https://badgen.net/github/label-issues/wulimax/reactApp/help%20wanted/open)]
-[![issues](https://badgen.net/github/open-issues/wulimax/reactApp)]
-[![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
+[redis 的高并发和高可用 redis 的主从复制原理 redis哨兵模式](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/how-to-ensure-high-concurrency-and-high-availability-of-redis.md)
 
+[redis 的雪崩、穿透和击穿？redis 崩溃之后会怎么样](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-caching-avalanche-and-caching-penetration.md)
 
-多年BAT一线大厂架构经验倾囊相授
+[redis 的并发竞争问题](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-cas.md)
 
-## 编写目的
+[redis 集群模式的工作原理 分布式寻址都有哪些算法](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-cluster.md)
 
-为了可以在面试前有一份资料能够帮助我们以最快的速度复习较为全面的知识点，一开始初衷想着只列出技术要点，能帮助回忆技术知识体系就行了。但是发现越整理知识越多，技术体系就越庞大。所以就想着分享出来，希望对大家有所帮助吧，哪怕一点点我也很高兴了，哈哈哈
+[如何保证缓存与数据库的双写一致性](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-consistence.md)
 
+[redis 都有哪些数据类型 使用场景](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-data-types.md)
 
-##分布式系统篇
+[redis 的过期策略](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-expiration-policies-and-lru.md)
 
-###	分布式消息队
-### 分布式搜索引擎
-### 分布式缓存 
-### 分库分表 
-### 分布式锁 
-### 分布式事务 
-### 限流降级 
+[redis 的持久化](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-persistence.md)
 
+[生产环境中的 redis 部署](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-production-environment.md)
 
+[redis 和 memcached 有什么区别](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/redis-single-thread-model.md)
 
-## Java功底篇
-### 集合
-### 并发
-### I/O
-### 网络
-### netty
-### JVM
-
-
+[项目中缓存应该如何使用](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/why-cache.md)
 
