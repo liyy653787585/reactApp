@@ -24,8 +24,7 @@
 
 ###	分布式消息队
 ### 分布式搜索引擎
-### [分布式缓存](https://github.com/wulimax/reactApp/blob/master/docs/DistributedCache/README.md) 
-
+### 分布式缓存 
 ### 分库分表 
 ### 分布式锁 
 ### 分布式事务 
