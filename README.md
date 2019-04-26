@@ -18,7 +18,7 @@
 
 ![联系我](https://github.com/wulimax/reactApp/blob/master/docs/PublicImage/user_shishan.jpg)
 
-### 公众号
+### 公众号:石杉的架构笔记
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
 
