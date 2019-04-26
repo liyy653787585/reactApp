@@ -16,6 +16,8 @@
 
 ![我的公众号](https://github.com/wulimax/reactApp/blob/master/docs/PublicImage/shishan100.jpg)
 
+![我的公众号](https://github.com/wulimax/reactApp/blob/master/docs/PublicImage/user_shishan.jpg)
+
 ## 编写目的
 
 为了可以在面试前有一份资料能够帮助我们以最快的速度复习较为全面的知识点，一开始初衷想着只列出技术要点，能帮助回忆技术知识体系就行了。但是发现越整理知识越多，技术体系就越庞大。所以就想着分享出来，希望对大家有所帮助吧，哪怕一点点我也很高兴了，哈哈哈
