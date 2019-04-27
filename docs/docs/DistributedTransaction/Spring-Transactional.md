@@ -1,0 +1,7 @@
+1 spring的@Transactional注解原理
+
+1.1 spring事务的基本原理
+spring对我们的service组件创建了一个动态代理，你加了@Transactional注解之后，就对这个动态代理插入了一堆事务管理的增强逻辑，就是在spring给我们的RefillDataCenterService创建的动态代理中，在调用动态代理的目标方法之前，先执行这个事务拦截器
+事务拦截器会给你先开启一个事务，然后执行你的finishRefillData()方法，你的方法里的数据库操作都被纳入到了事务中去了，接着的话呢根据你的finishRefillData()方法里的报错的情况，没报错就提交事务，报错就回滚事务
+
+1.2 spring事务的源码初探
