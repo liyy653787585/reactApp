@@ -37,7 +37,7 @@
 
 ### 分库分表 
 ### 分布式锁 
-### 分布式事务 
+### [分布式事务](https://github.com/wulimax/reactApp/blob/master/docs/DistributedTransaction/README.md)
 ### 限流降级 
 
 
